@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="100dp">
+
+    <!-- İsim alanı -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="İsim Ve Soyisim Giriniz:" />
+
+    <!-- Telefon numarası alanı -->
+
+    <!-- Kaydet butonu -->
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefon Numarasını Giriniz:"
+        android:inputType="phone" />
+
+    <!-- Kaydedilen kişiyi gösterme alanı -->
+
+    <Button
+        android:id="@+id/btnkaydet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YENİ KİŞİ OLUŞTUR" />
+
+    <Button
+        android:id="@+id/btnkişiler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KİŞİLERİ GÖSTER" />
+
+</LinearLayout>
